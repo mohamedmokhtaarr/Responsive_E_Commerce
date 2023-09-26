@@ -1,0 +1,211 @@
+
+.alert {
+    --bs-alert-bg: transparent;
+    --bs-alert-padding-x: 0.25rem;
+    --bs-alert-padding-y: 0.25rem;
+    --bs-alert-margin-bottom: 0.25rem;
+    --bs-alert-color: inherit;
+    --bs-alert-border-color: transparent;
+    --bs-alert-border: 1px solid var(--bs-alert-border-color);
+    --bs-alert-border-radius: 0.375rem;
+    position:relative;
+    padding: var(--bs-alert-padding-y) var(--bs-alert-padding-x);
+    margin-bottom: var(--bs-alert-margin-bottom);
+    color: var(--bs-alert-color);
+    background-color: var(--bs-alert-bg);
+    border: var(--bs-alert-border);
+    border-radius: var(--bs-alert-border-radius);
+}
+
+.alert-secondary {
+    --bs-alert-color: #41464b;
+    --bs-alert-bg: #e2e3e5;
+    --bs-alert-border-color: #d3d6d8;
+}
+
+
+
+
+
+
+a {
+    color: red;
+    text-decoration: underline;
+}
+@media screen and (max-width:480px) {
+
+    .carousel-item img {
+        height: 500;
+    }
+    
+    
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-top: 1rem;
+
+    padding-right:2.25rem;
+    padding-left: 2.25 rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+.carousel-caption {
+    position: absolute;
+    font-size: xx-large;
+    top: 150px; 
+    right: 15%;
+    bottom: 1rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: black;
+    text-align: initial;}
+    
+
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        display: inline-block;
+        width: 4rem;
+        height: 4rem;
+        background-color:black;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 100% 100%;
+    }
+
+   
+    
+
+    .my-first-card img {
+
+        height: 200px;
+    }
+
+ .figure img {
+
+    height: 50px;
+ 
+ }
+.figure-caption{
+    font-size: 14px;
+    line-height: 1.7;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #2e2e2e;
+}
+
+ /* .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+} */
+.single-footer-widget .widget-list li a {
+    color: #757575;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    display: block;
+    margin-bottom: 10px;
+}
+.single-footer-widget .widget-address li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+ .section, .section-fluid {
+    float: left;
+    width: 100%;
+}
+
+*, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.footer-top {
+    background: #f6f7f7;
+}
+footer {
+    display: block;
+    background-color: #e7e8e8;
+}
+
+body {
+    position: relative;
+    visibility: visible;
+    color: "";
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: red;
+    --bs-btn-border-color: red;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: red;
+    --bs-btn-hover-border-color: red;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: red;
+    --bs-btn-active-border-color: red;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: red;
+    --bs-btn-disabled-border-color: red;
+}
+
+.section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer-top {
+    background: #f6f7f7;
+}
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.widget-social a {
+    color: #757575;
+    font-size: 16px;
+    padding-right: 15px;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+   font-size: x-large;
+   font-family: roboto;
+    --bs-nav-link-color: Red;
+    --bs-nav-link-hover-color: red;
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+ .my-img img{
+    height: 200 px;
+ }
+
+
+
+
+ 
